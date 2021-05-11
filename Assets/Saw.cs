@@ -5,7 +5,7 @@ public class Saw : MonoBehaviour
     [SerializeField] float moveSpeed;
     [SerializeField] float spinningSpeed;
     [Space(10)]
-    [SerializeField] bool isSpinning;
+    public bool isSpinning;
 
     // Update is called once per frame
     void Update()
